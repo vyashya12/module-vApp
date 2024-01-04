@@ -13,11 +13,6 @@ variable "vdc_name" {
   type        = string
 }
 
-variable "description" {
-  description = "Add description"
-  type        = string
-}
-
 variable "network" {
   description = "Attach network"
   type        = string

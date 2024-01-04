@@ -11,10 +11,9 @@ provider "vcd" {
 }
 
 module "vapp" {
-  source      = "./vapp"
-  vapp_name   = var.vapp_name
-  org_name    = var.org_name
-  vdc_name    = var.vdc_name
-  description = var.description
-  network     = var.network
+  source    = "./vapp"
+  vapp_name = var.vapp_name
+  org_name  = var.org_name
+  vdc_name  = var.vdc_name
+  network   = var.network
 }
