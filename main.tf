@@ -6,8 +6,8 @@ provider "vcd" {
   password             = "none"
   auth_type            = "api_token"
   sysorg               = "System"
-  org                  = "MY1VMC2-DEMO"
-  vdc                  = "MY1VMC2-DemoVDC"
+  org                  = "MY1VMC4-Demo"
+  vdc                  = "MY1VMC4-Demo"
 }
 
 module "vapp" {
